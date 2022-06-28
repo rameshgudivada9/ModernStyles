@@ -14,7 +14,7 @@ function App() {
     </div>
     </header>
     <main>
-    <div className="row center">
+    <div className="row center"> 
       {
         data.products.map((ele)=>(
           <div key={ele._id} className="card">
